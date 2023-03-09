@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import HomePage from './homepage.component';
-
+import obj from './pages/homepage/homepage.component';
 function App() {
-  return <div><HomePage /></div>
+  return <div>
+    <obj.home />
+  </div>
 }
 export default App;
+ 

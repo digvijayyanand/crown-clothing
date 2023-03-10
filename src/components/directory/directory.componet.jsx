@@ -52,5 +52,5 @@ class Directory extends React.Component {
             </div>)
     }
 }
-
+// asd
 export default Directory; 

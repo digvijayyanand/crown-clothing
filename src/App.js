@@ -6,6 +6,8 @@ import './App.css';
 
 import obj from './pages/homepage/homepage.component';
 
+import ShopPage from './pages/shop/shop.component';
+
 const HatsPage = () => (
   <div>
     <h1>HATS PAGE</h1>
@@ -17,7 +19,7 @@ function App() {
     <div>
       <Routes>
         <Route path='/' element={<obj.home />} />
-        <Route path='/hats' element={<HatsPage />} />
+        <Route path='/shop' element={<ShopPage />} />
       </Routes>
     </div>)
 }
